@@ -4,7 +4,7 @@ const CountryDetail = ({country}) => {
     return(
         <div>
             <h3>{country.name}</h3>
-            {/* <p>Languages: {country.name.languages.name}</p>   */}
+            {/* <p>Languages: {country.languages.name}</p>   */}
             <p><a href={country.flag}>Flag</a> </p>
         </div>
     )
